@@ -1,0 +1,27 @@
+
+<table>
+  <tr>
+    <th>Country</th>
+    <th>cases</th>
+    <th>todayCases</th>
+    <th>deaths</th>
+    <th>todayDeaths</th>
+    <th>recovered</th>
+    <th>active</th>
+    <th>critical</th>
+    <th>casesPerOneMillion</th>
+    <th>deathsPerOneMillion</th>
+  </tr>
+  <tr *ngFor="let cor of lstCorona">
+    <td>{{cor.country}}</td>
+    <td>{{cor.cases}}</td>
+    <td>{{cor.todayCases}}</td>
+    <td>{{cor.deaths}}</td>
+    <td>{{cor.todayDeaths}}</td>
+    <td>{{cor.recovered}}</td>
+    <td>{{cor.active}}</td>
+    <td>{{cor.critical}}</td>
+    <td>{{cor.casesPerOneMillion}}</td>
+    <td>{{cor.deathsPerOneMillion}}</td>
+  </tr>
+</table>
